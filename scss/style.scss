@@ -1,3 +1,9 @@
-body{
-    
-}
+// sass --watch app/scss/style.scss:app/css/style.css
+
+@import "base/_reset";
+@import "base/_fonts";
+
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_content";
+@import "layout/_media";
