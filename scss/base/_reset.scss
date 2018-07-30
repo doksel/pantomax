@@ -6,15 +6,10 @@ body {
 	padding: 0px;
 	font-family: $base-font-family;
 	background: $base-bg;
-	// height: 100%;
-	// line-height: 1;
 	position: relative;
 	font-size: $base-font-size!important;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	.wrapper{
-		width: 80%;
-	}
 }
 
 

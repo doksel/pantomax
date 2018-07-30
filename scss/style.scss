@@ -1,9 +1,12 @@
-// sass --watch app/scss/style.scss:app/css/style.css
+// sass --watch scss/style.scss:css/style.css
 
 @import "base/_reset";
 @import "base/_fonts";
 
-@import "layout/_header";
-@import "layout/_footer";
-@import "layout/_content";
+@import "layout/_block1";
+@import "layout/_block2";
+@import "layout/_block3";
+@import "layout/_block4";
+@import "layout/_block5";
+
 @import "layout/_media";
