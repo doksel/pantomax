@@ -7,12 +7,10 @@ body {
 	font-family: $base-font-family;
 	background: $base-bg;
 	position: relative;
-	font-size: $base-font-size!important;
+	font-size: $base-font-size;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-
 
 /*MAIN*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
@@ -36,13 +34,6 @@ q:after {
 	content: none;
 }
 
-table {
-	border-collapse: collapse;
-	border-width: 0px;
-	padding: 0px;
-	margin: 0px;
-}
-
 html {
 	height: 100%;
 	-webkit-text-size-adjust: none;
@@ -51,8 +42,6 @@ html {
 
 input,
 textarea {
-	color: #333;
-	font-family: $base-font-family;
 	outline: none;
 	border-radius: 0;
 	-moz-border-radius: 0;
@@ -66,18 +55,12 @@ button {
 	cursor: pointer
 }
 
-td {
-	margin: 0px;
-	padding: 0px;
-}
-
 form {
 	padding: 0px;
 	margin: 0px;
 }
 
 a {
-	color: $link-color;
 	@include transition($default-transition);
 	text-decoration: none;
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -108,14 +91,4 @@ button {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-}
-
-.clearfix:after,
-.wrapper:after,
-.row:after{
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
 }
