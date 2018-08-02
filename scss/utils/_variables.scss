@@ -1,7 +1,7 @@
 /* reset */
 $min-width: 320px; 
 $max-width: 1680px; 
-$base-bg:   rgb(6,6,6);
+$base-bg:   #060606;
 $base-font-size: 14px; 
 $base-line-height: 18px; 
 $base-font-family: 'Open Sans', sans-serif; 
@@ -9,16 +9,7 @@ $custom-font-family: 'Comfortaa', cursive;
 $link-color: #100da9;
 $default-transition:all 0.2s linear;
 
-/* main variables */
-
 //text, titles
-$text-color: #000;
+$text-color: #000000;
 $title-color: #000;
 $title-font-family: $custom-font-family;
-
-$font-size-h1: 30px;
-$line-height-h1: 36px;
-$font-size-h2: 18px;
-$line-height-h2: 22px;
-$font-size-h3: 16px;
-$line-height-h3: 20px;
